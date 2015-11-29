@@ -7,7 +7,7 @@ A minimal project to get started with React:
 * hot module reloading via [React Hot Loader](https://github.com/gaearon/react-hot-loader)
 * hot CSS reloading with [Post-CSS loaded](https://github.com/postcss/postcss-loader) included - only using [Autoprefixer](https://github.com/postcss/autoprefixer) for the moment
 * Basic ESLint setup, using the [Airbnb style-guide](https://github.com/airbnb/javascript)
-* Some sensible npmrc defaults to protect against user stupidity (e.g. forgetting --save, installing with ^ versions)
+* Some sensible npmrc defaults to protect against user stupidity (e.g. forgetting --save, installing with `^` versions)
 
 ## Installation
 
