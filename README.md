@@ -1,6 +1,6 @@
 # React Starter Project
 
-A minimal project to get started with React:
+A (slightly less than) minimal project to get started with React:
 
 * webpack and webpack-dev-server
 * ES2015 and JSX via Babel
