@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "webpack": "webpack",
-    "start": "webpack-dev-server --hot --inline"
+    "start": "webpack-dev-server --hot --inline",
+    "lint": "eslint ./js/**.js"
   },
   "author": "Axel Rauschmayer",
   "license": "MIT",
