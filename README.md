@@ -1,4 +1,4 @@
-# React starter project
+# React Starter Project
 
 A minimal project to get started with React:
 
