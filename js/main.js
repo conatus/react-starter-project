@@ -1,1 +1,1 @@
-import '../css/test.css';
+import '../css/main.css';
