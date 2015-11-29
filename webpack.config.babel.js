@@ -24,6 +24,7 @@ export default {
       {
         loader: 'react-hot',
         test: dirJS,
+        exclude: /node_modules/,
       },
       {
         loader: 'babel-loader',
@@ -31,6 +32,7 @@ export default {
         query: {
           presets: ['es2015', 'react'],
         },
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
