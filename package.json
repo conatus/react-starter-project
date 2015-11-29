@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "webpack": "webpack",
+    "webpack": "webpack --config ./webpack.config.babel.js",
     "start": "webpack-dev-server --hot --inline",
     "lint": "eslint ./js/**.js"
   },

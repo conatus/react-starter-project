@@ -1,17 +1,16 @@
-/* eslint no-var: 0 */
 /* global __dirname */
-var path = require('path');
+import path from 'path';
 
-var webpack = require('webpack');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
+import webpack from 'webpack';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
-var autoprefixer = require('autoprefixer');
+import autoprefixer from 'autoprefixer';
 
-var dirJS = path.resolve(__dirname, 'js');
-var dirHTML = path.resolve(__dirname, 'html');
-var dirBuild = path.resolve(__dirname, 'build');
+const dirJS = path.resolve(__dirname, 'js');
+const dirHTML = path.resolve(__dirname, 'html');
+const dirBuild = path.resolve(__dirname, 'build');
 
-module.exports = {
+export default {
   entry: path.resolve(dirJS, 'main.js'),
   output: {
     path: dirBuild,
@@ -39,7 +38,7 @@ module.exports = {
       },
     ],
   },
-  postcss: function postCSS() {
+  postcss: () => {
     return [autoprefixer];
   },
   plugins: [

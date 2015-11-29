@@ -3,7 +3,8 @@
 A minimal project to get started with React:
 
 * webpack and webpack-dev-server
-* ES6 and JSX via Babel
+* ES2015 and JSX via Babel
+* `webpack-config.js` written in ES2015 using Babel
 * hot module reloading via [React Hot Loader](https://github.com/gaearon/react-hot-loader)
 * hot CSS reloading with [Post-CSS loaded](https://github.com/postcss/postcss-loader) included - only using [Autoprefixer](https://github.com/postcss/autoprefixer) for the moment
 * Basic ESLint setup, using the [Airbnb style-guide](https://github.com/airbnb/javascript)
