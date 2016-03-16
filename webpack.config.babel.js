@@ -39,9 +39,7 @@ export default {
       },
     ],
   },
-  postcss: () => {
-    return [autoprefixer];
-  },
+  postcss: () => [autoprefixer],
   plugins: [
     // Simply copies the files over
     new CopyWebpackPlugin([
