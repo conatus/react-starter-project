@@ -5,7 +5,7 @@
   "scripts": {
     "webpack": "webpack --config ./webpack.config.babel.js",
     "start": "webpack-dev-server --hot --inline",
-    "lint": "eslint ./js/**.js"
+    "lint": "eslint src"
   },
   "author": [
     "Axel Rauschmayer",

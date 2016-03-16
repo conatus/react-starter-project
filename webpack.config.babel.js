@@ -6,8 +6,8 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 import autoprefixer from 'autoprefixer';
 
-const dirJS = path.resolve(__dirname, 'js');
-const dirHTML = path.resolve(__dirname, 'html');
+const dirJS = path.resolve(__dirname, 'src/js');
+const dirHTML = path.resolve(__dirname, 'src/html');
 const dirBuild = path.resolve(__dirname, 'build');
 
 export default {
