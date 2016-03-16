@@ -35,5 +35,11 @@
   },
   "eslintConfig": {
     "extends": "airbnb"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }
